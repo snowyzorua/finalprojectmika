@@ -18,3 +18,33 @@
     margin-right: auto;
     width: 10%;
   }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .oblique {
+    font-style: oblique;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
