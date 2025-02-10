@@ -4,21 +4,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>boo!</title>
   <link href="finalprojectmika.css" rel="stylesheet" type="text/css">
   <style>
-    h1 {text-align:center;}
-    h2 {text-align:center;}
-    p {text-align:center;}
-    div {text-align:center;}
-    ul {text-align:center;}
-    li {text-align:center;}
+    body {text-align:center;}
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+    }
     .oblique {
       font-style: oblique;
     }
 
     .italic {
       font-style: italic;
+    }
+    .container {
+       position: relative;
+       width: 100%;
+     }
+
+   .image {
+     display: block;
+     width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #008CBA;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
     }
 
   </style>
@@ -29,11 +67,16 @@
 <div class="background-overlay">
     <div id="tie-wrapper">
   <header>
-    <h1 style="color:whitesmoke;">My favourite ballroom members</h1>
+    <h1>My favourite ballroom members</h1>
+    <div class="container,center">
     <img src="sddasd.png" alt="A picture of an autism creature staring at the viewer" class="center"  >
+    <div class="overlay">
+      <div class="text">I love you all &lt;3</div>
+    </div>
+    </div>
   </header>
-  <p style="color:whitesmoke;">I love everyone in our ballroom. I'm very thankful to Beso and Killian especially since theyre both helping me study &lt;3 </p>
-     <ul style="color:whitesmoke;">
+  <p >I love everyone in our ballroom. I'm very thankful to Beso and Killian especially since theyre both helping me study &lt;3 </p>
+     <ul style="border-style: double; border-color: red; border-width: 1px;">
         <li>Lux of course</li>
         <li>Beso Besito Beloved &lt;3</li>
         <li>Killian. Youre so awesome</li>
@@ -46,18 +89,22 @@
      </ul>
    <br>
      <div class="row">
-     <h2 style="color:whitesmoke;">Here are two images i have had on my computer for many years.</h2>
-       <img src="3003aefaa9b26aff873871ce18ff7e74.gif" alt="a dancing kitty cat" style="width:15%">
+     <h2>Here are two images i have had on my computer for many years.</h2>
+       <img src="3003aefaa9b26aff873871ce18ff7e74.gif" alt="a dancing kitty cat" style="width:18%">
        <img src="Bobdance.gif" alt="another dancing kitty cat, it's more chill" style="width:15%">
       </div>
     <script src="script.js"></script>
-    <p style="color:whitesmoke;">anyway heres one lux's <a href="https://youtube.com/shorts/K2-U3_49MvQ?si=_ICStgUY-wgBzsJt">favourite videos ever</a></p>
+    <p>anyway heres one lux's <a href="https://youtube.com/shorts/K2-U3_49MvQ?si=_ICStgUY-wgBzsJt">favourite videos ever</a></p>
       </div>
   </div>  
 </main>
 
   <footer>
-    <p style="color:whitesmoke;">This is a website made by Mika. I hope you enjoyed it. I love you all &lt;3</p>
+    <p>This is a website made by Mika. I hope you enjoyed it. I love you all &lt;3</p>
+    <nav>
+      <a href="mantoumika.carrd.co"><em>Carrd</em></a>
+      <a href="mantoumika.tumblr.com"><em>Tumblr</em></a>
+    </nav>
   </footer>
 
 </body>
